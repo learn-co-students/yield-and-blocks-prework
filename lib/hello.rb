@@ -26,8 +26,7 @@ hello_t(["Tim", "Tom", "Jim"]) { |x| puts "Hi, #{x}" }
 
 def hello_t(a)
   if block_given?
-    a.map { |i| yield(i) }
-    a
+    a = a.map { |i| yield(i) }
   else
     puts "Hey! No block was given!"
   end
