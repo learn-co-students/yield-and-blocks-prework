@@ -192,7 +192,7 @@ Let's call our method with an argument of the following array:
 ```
 
 ```ruby
-hello_t(["Tim", "Tom", "Jim"]) do |name|
+hello_t(["Tim", "Tom", "Tam"]) do |name|
 	if name.start_with?("T")
 		puts "Hi, #{name}"
 	end
