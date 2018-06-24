@@ -10,4 +10,4 @@ array
 end
 
 # call your method here!
-hello_t(["tim","tom"])
+hello_t()
