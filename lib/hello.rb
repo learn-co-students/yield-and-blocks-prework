@@ -3,4 +3,4 @@ array.each{|x| puts x}
 end
 
 # call your method here!
-hello_t()
+hello_t([])
