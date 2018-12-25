@@ -39,7 +39,7 @@ Programs are pretty much:
 * Data we manipulate
 * Actions that change the data (behavior)
 
-We often pass "data" to a method. A `sum` method would expect to have two numbers passed into it. A `multiply` method would expect to hae two numbers passed into it. These are examples of passing _data_.
+We often pass "data" to a method. A `sum` method would expect to have two numbers passed into it. A `multiply` method would expect to have two numbers passed into it. These are examples of passing _data_.
 
 But what if you could pass a _behavior_ to a method. You might write:
 
