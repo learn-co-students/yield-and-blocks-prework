@@ -28,3 +28,4 @@ describe "#hello_t" do
       .to_stdout
   end
 end
+ 
