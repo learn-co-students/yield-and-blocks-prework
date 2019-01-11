@@ -1,6 +1,15 @@
-def hello_t
-
+def hello_t(array)
+  if block_given?
+    array.each do | element |
+      yield(element)
+    end
+  else
+    puts "Hey! No block was given!\n"
+  end
+  array
 end
 
-# call your method here!
+hello_t(["time", "ends"]) do | x |
+  puts x
+end
 
