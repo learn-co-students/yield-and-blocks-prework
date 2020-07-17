@@ -6,6 +6,13 @@
 2. Practice using `yield` with blocks.
 3. Gain a deeper understanding of the common iterator `#each`.
 
+def yielding
+  5*2
+  yield
+  10*2
+end
+
+
 ## Calling a method with a block
 
 A block is a bit of code enclosed in `do`/`end` keywords or curly brackets (`{}`). We've seen methods like `#each` and `#collect` being called with blocks.
