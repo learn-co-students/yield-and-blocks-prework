@@ -1,6 +1,12 @@
-def hello_t
+def hello_t(array)
+  if block_given?
+    array = self if array.nil?
+    array.each { |w| yield(w) }
+  else 
+    puts "Hey! No block was given!"
+  end
+end 
 
-end
-
-# call your method here!
+# arr = ["Tim", "Tom", "Jim"] 
+# hello_t(arr) { |ele| puts "Hi, #{ele}"}
 
